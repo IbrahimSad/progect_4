@@ -1,0 +1,448 @@
+/*Start globel*/
+body{
+    background:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.medime-color{
+    color:#f7600e;
+}
+
+.globel-color{
+    color:#dcd6d6;
+}
+
+.text-center{
+    text-align: center
+}
+
+.table-row{
+    display: table-row;
+}
+
+.upper{
+    text-transform:uppercase;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(55, 61, 65, .9);
+}
+
+::-webkit-input-placeholder{
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.clearfix{
+    clear:both
+}
+
+/*End globel*/
+
+/*Start header*/
+.my-header{
+background-image: url('../images/header.png');
+background-size: cover;
+width:100%;
+}
+
+.my-header .navbar {
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.my-header .navbar > span:last-child{
+    float:right
+
+}
+.my-header .table{
+    height: 100%;
+    display: table;
+}
+
+.my-header .table-row .content h1{
+    font-weight: 900
+}
+
+.my-header .table-row .content p{
+    margin: 5px 0 30px
+}
+
+.my-header .table-row .buttons button{
+    padding: 8px 0;
+    margin: 5px;
+    background: transparent;
+    width: 140px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    font-size: 12px
+}
+
+.my-header .table-row .buttons button:hover{
+    background-color:#f7600e;
+    border: 1px solid #f7600e
+}
+
+.my-header .arrow {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.my-header .arrow i{
+    border: 2px solid #c1c1c1;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #c1c1c1;
+}
+/*End header*/
+/* Start design*/
+.my-design .design{
+    width: 80%;
+    margin: 80px 0px 80px 100px;
+    overflow: hidden
+}
+.my-design .design >div{
+    float: left;
+    text-align: center;
+    width: 20%;
+    margin-right: 6.66666%;
+}
+
+.my-design .design .last{
+    margin-right: 0;
+}
+
+.my-design .design div .fa-3x{
+    font-size: 3em;
+    border: 1px solid #d4d3d3;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    color: #f7600e
+}
+
+.my-design .design div h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #504f4f;
+
+}
+
+.my-design .design div p{
+    font-size: 12px;
+    line-height: 1.7;
+    color: #a0a0a0;
+    margin:0px
+}
+/* End design*/
+/* Start Subscripe*/
+.my-subscribe{
+    background: url('../images/subscribe.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.my-subscribe .subscribe{
+    text-align: center;
+    line-height: 250px
+}
+
+.my-subscribe .subscribe input[type="text" ]{
+    width: 350px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.my-subscribe .subscribe button {
+    background-color: #f7600e;
+    color: #EEE;
+    width: 150px;
+    height: 25px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+/* End Subscripe*/
+/*Start Our Work*/
+
+.our-works .works{
+    text-align:center;
+    margin-bottom:70px
+}
+
+.our-works .works h2{
+    margin: 0px;
+    padding-bottom: 10px;
+    font-weight: 500; 
+}
+.our-works .works p{
+    font-size: 11px;
+    line-height: 1.7;
+    margin: 0 0 50px;
+}
+
+.our-works .works .images{
+    overflow: hidden;
+}
+
+.our-works .works .images > div{
+    float: left;
+    width: 32%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.works .images div .overlay2{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:0%;
+    height:0%;
+    background-color: rgba(247, 96, 14, .9);
+    border-radius: 20px;
+    border: 2px solid #ece8e8;
+    box-shadow: 2px 2px 5px #b19d9d;
+    transition: all .5s ease-in-out; 
+    overflow: hidden
+}
+
+.works .images div:hover .overlay2{
+    width:100%;
+    height:100%;
+}
+
+.works .images div .overlay2 h4{
+    margin-top: 120px;
+    color: #EEE;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.works .images div .overlay2 p{
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.works .images div .overlay2 button{
+    background-color: #f7600e;
+    color: #EEE;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.works .images div .overlay2 button:hover{
+    color: #f7600e;
+    background-color:  #EEE;
+}
+.our-works .works .images > div img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.our-works .works .images .margin{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.our-works .works button{
+    margin-top: 30px;
+    font-size: 11px;
+    padding: 8px 20px;
+    border: 1px solid #d8d8d5;
+}
+/*End Our Work*/
+
+/*Start clien*/
+.client{
+    background-image:url('../images/Client.jpg');
+    width:100%;
+    height:250px;
+    text-align:center;
+    overflow:hidden;
+    position: relative;
+}
+
+.client .content{
+    overflow: hidden
+}
+.client .content img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.client .content i[class="fa fa-chevron-circle-left"]{
+    float: right;
+    width: 50px;
+}
+.client .content i[class="fa fa-chevron-circle-right"]{
+    float: left;
+    width: 50px;
+}
+/*End clien*/
+
+/*Start Our Team*/
+
+.our-team{
+    margin: 50px 0 50px 0
+}
+
+.our-team .team{
+    margin: 80px 0 80px 0;
+    overflow: visible
+}
+
+.our-team .team > div{
+    float:left;
+    width: 22%;
+    filter: grayscale(1);
+    color: #9a9898;
+    transition: all .5s ease-in-out;
+    overflow: visible;
+}
+
+.our-team .team  div:hover{
+    filter: grayscale(0);
+    color: #000;
+}
+
+.our-team .team  div:hover img{
+    border-bottom: 5px solid  #f7600e;
+    transform: scaleY(1.1) translate(0 , -15px);
+    transition: all .5s ease-in-out;
+    padding-bottom: 0px;
+}
+
+.our-team .team  div h4{
+    text-transform: uppercase;
+}
+.our-team .team  div p{
+    font-size: 11px;
+}
+
+.our-team .team  div img{
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding-bottom: 15px
+}
+
+
+/*End Our Team*/
+
+/*Stsrt Say Hello*/
+.my-say{
+    background: url('../images/03.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top:50px;
+    position: relative;
+}
+
+.my-say .sayhello form input{
+    margin-top: 75px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 280px
+}
+
+.my-say .sayhello h2{
+    color: #d0d0d0
+}
+
+.my-say .sayhello h2 .hello{
+    color: #7c7c7c
+}
+.my-say .sayhello p{
+    font-size: 11px;
+}
+
+.my-say .sayhello form textarea{
+    display: block;
+    margin: 20px 199px;
+    padding:10px;
+    height: 128px;
+    width: 577px;
+    border-radius: 10px;
+}
+
+.my-say .sayhello  button{
+    float: left;
+    margin-left: 203px;
+    padding: 7px 26px;
+    font-size: 14px;
+    background: #7c7c7c;
+    color: #EEE;
+    border: none;
+    border-radius: 7px;
+}
+
+.my-say .sayhello .social{
+    margin-right: 190px;
+}
+
+.my-say .sayhello .social .fa{
+    float: right;
+    padding-right: 0px;
+    width: 26px;
+    height: 32px;
+    color: #FFF;
+    border: 2px solid #7b7a7a;
+    border-radius: 50%;
+    line-height: 32px;
+    margin-right: 10px;
+    background: #7c7c7c
+}
+/*End Say Hello*/
+
+/*STart Footer*/
+.footer{
+    background: #424242;
+    margin:0px
+}
+
+.footer p{
+    margin:0px;
+    font-size: 11px;
+    padding: 20px
+}
+/*End Footer*/
